@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gestion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container" >
+        <h1 class="text-primary text-center">Employee CRUD</h1>
+        <form action="" id="productsForm">
+            <div class="mb-3">
+                <label for="NOM" class="form-label">NOM</label>
+                <input type="text" class="form-control" name="NOM" id="NOM"/>
+                <span class="login1" id="span"></span>
+            </div>
+            
+            <div class="mb-3">
+                <label for="PRENOM" class="form-label">PRENOM</label>
+                <input type="text" class="form-control" name="PRENOM" id="PRENOM"/>
+                <span class="login2" id="login2"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="PWD" class="form-label">PWD</label>
+                <input type="text" class="form-control" name="PWD" id="PWD"/>
+                <span class="login3" id="login3"></span>
+            </div>
+            
+            <div class="mb-3">
+                <label for="NUMERO" class="form-label">NUMERO</label>
+                <input type="number" class="form-control" name="NUMERO" id="NUMERO"/>
+                <span class="login4 "  id="login4"></span>
+            </div>
+            
+            <div class="mb-3">
+                <label for="CODE" class="form-label">CODE</label>
+                <input type="text" class="form-control" name="CODE" id="CODE"/>
+                <span class="login5" id="login5"></span>
+              
+            </div>
+            
+            <div class="mb-3">
+                <button class="btn btn-primary" id="Sbmit">Sbmit</button>
+                <button class="btn btn-danger" id="reset">Reset</button>
+            </div>
+          
+        </form>
+        <table id="achats-table" class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">NOM</th>
+                <th scope="col">PRENOM</th>
+                <th scope="col">PWD</th>
+                <th scope="col">NUMERO</th>
+                <th scope="col">CODE</th>
+              </tr>
+            </thead>
+            <tbody id="tdata">
+                
+            </tbody>
+          </table>
+
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

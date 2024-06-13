@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de produits</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+      
+        <form action="" id="productsForm">
+            <div class="mb-3">
+                <label for="code" class="form-label">Code</label>
+                <input type="text" class="form-control" name="code" id="code"/>
+                <span id="span" class="span"></span>
+            </div>
+            
+            <div class="mb-3">
+                <label for="nom" class="form-label">nom</label>
+                <input type="text" class="form-control" name="nom" id="nom"/>
+            </div>
+
+            <div class="mb-3">
+                <label for="prenom" class="form-label">prenom</label>
+                <input type="text" class="form-control" name="prenom" id="prenom"/>
+            </div>
+            
+            <div class="mb-3">
+                <label for="groupe" class="form-label">groupe</label>
+                <input type="number" class="form-control" name="groupe" id="groupe"/>
+            </div>
+
+            <div class="mb-3">
+                <label for="note" class="form-label">note</label>
+                <input type="number" class="form-control" name="note" id="note"/>
+            </div>
+    
+        </form>
+        <table id="achats-table" class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Code</th>
+                <th scope="col">nom</th>
+                <th scope="col">prenom</th>
+                <th scope="col">groupe</th>
+                <th scope="col">note</th>
+              </tr>
+            </thead>
+            <tbody id="tdata">
+                
+            </tbody>
+          </table>
+      
+
+        <div class="mb-3">
+            <button id="enregister" class="btn btn-danger">enregister</button>
+        </div>
+
+       
+    </div>
+
+    <script src="inFdex.js"></script>
+</body>
+</html>

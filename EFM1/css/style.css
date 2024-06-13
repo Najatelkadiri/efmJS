@@ -1,0 +1,31 @@
+.selected-row {
+    background-color:green;
+}
+.container{
+    background-color: rgb(27, 25, 25);
+}
+.form-label{
+    color: aliceblue;
+}
+.error{
+    border: solid 2px red;
+}
+.login1{
+    display: none;
+}
+.login2{
+    display: none;
+}
+.login3{
+    display: none;
+}
+.login4{
+    display: none;
+}
+.login5{
+    display: none;
+}
+span{
+    display: block;
+    color: red;
+}

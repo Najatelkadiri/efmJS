@@ -1,0 +1,17 @@
+.selected-row {
+    background-color:green;
+}
+.container{
+    background-color: bisque;
+    margin-top: 30px;
+}
+.error{
+    border: solid 2px red;
+}
+span{
+    display: block;
+    color: red;
+}
+.span{
+    display: none;
+}
